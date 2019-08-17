@@ -1,0 +1,410 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 528031,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Wikipedia title verification using search boz feature",
+        "description": "",
+        "id": "wikipedia-search-feature;wikipedia-title-verification-using-search-boz-feature;test-data-for-search-functionality;2",
+        "after": [
+          {
+            "result": {
+              "duration": 236192,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5180568453,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Wikipedia Homepage",
+            "match": {
+              "location": "Wikipedia_Steps.user_is_on_Wikipedia_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 119809639,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User types \"Steve Jobs\" in the  wiki search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steve Jobs\"",
+                  "offset": 11
+                }
+              ],
+              "location": "Wikipedia_Steps.user_types_in_the_wiki_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1024123902,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks wiki search button",
+            "match": {
+              "location": "Wikipedia_Steps.user_clicks_wiki_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26418629,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User sees \"Steve Jobs\" is in the  wiki title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steve Jobs\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Wikipedia_Steps.user_sees_is_in_the_wiki_title(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@so"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 77825,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Wikipedia title verification using search boz feature",
+        "description": "",
+        "id": "wikipedia-search-feature;wikipedia-title-verification-using-search-boz-feature;test-data-for-search-functionality;3",
+        "after": [
+          {
+            "result": {
+              "duration": 106693,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 140486781,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Wikipedia Homepage",
+            "match": {
+              "location": "Wikipedia_Steps.user_is_on_Wikipedia_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 89880373,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User types \"Ricky Martin\" in the  wiki search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ricky Martin\"",
+                  "offset": 11
+                }
+              ],
+              "location": "Wikipedia_Steps.user_types_in_the_wiki_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 480994596,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks wiki search button",
+            "match": {
+              "location": "Wikipedia_Steps.user_clicks_wiki_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75607673,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User sees \"Ricky Martin\" is in the  wiki title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ricky Martin\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Wikipedia_Steps.user_sees_is_in_the_wiki_title(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@so"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 81359,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Wikipedia title verification using search boz feature",
+        "description": "",
+        "id": "wikipedia-search-feature;wikipedia-title-verification-using-search-boz-feature;test-data-for-search-functionality;4",
+        "after": [
+          {
+            "result": {
+              "duration": 141038,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 177428643,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Wikipedia Homepage",
+            "match": {
+              "location": "Wikipedia_Steps.user_is_on_Wikipedia_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 69457166,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User types \"Lionel Messi\" in the  wiki search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lionel Messi\"",
+                  "offset": 11
+                }
+              ],
+              "location": "Wikipedia_Steps.user_types_in_the_wiki_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1348169176,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks wiki search button",
+            "match": {
+              "location": "Wikipedia_Steps.user_clicks_wiki_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46317678,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User sees \"Lionel Messi\" is in the  wiki title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lionel Messi\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Wikipedia_Steps.user_sees_is_in_the_wiki_title(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@so"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 77991,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Wikipedia title verification using search boz feature",
+        "description": "",
+        "id": "wikipedia-search-feature;wikipedia-title-verification-using-search-boz-feature;test-data-for-search-functionality;5",
+        "after": [
+          {
+            "result": {
+              "duration": 135987,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 219452386,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Wikipedia Homepage",
+            "match": {
+              "location": "Wikipedia_Steps.user_is_on_Wikipedia_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 65240869,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User types \"Lady Gaga\" in the  wiki search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lady Gaga\"",
+                  "offset": 11
+                }
+              ],
+              "location": "Wikipedia_Steps.user_types_in_the_wiki_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 929532076,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks wiki search button",
+            "match": {
+              "location": "Wikipedia_Steps.user_clicks_wiki_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42805652,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User sees \"Lady Gaga\" is in the  wiki title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lady Gaga\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Wikipedia_Steps.user_sees_is_in_the_wiki_title(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@so"
+          }
+        ]
+      }
+    ],
+    "name": "Wikipedia search feature",
+    "description": "",
+    "id": "wikipedia-search-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/wikiSearchSO.feature",
+    "tags": [
+      {
+        "name": "@so",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
